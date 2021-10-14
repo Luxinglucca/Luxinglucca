@@ -1,0 +1,9 @@
+import java.util.Scanner
+public class Hello{
+  public static void main(String[] args){
+    Scanner txt = new Scannner(System.in);
+    System.out.println("Hi I'm Luxinglucca and you are? ");
+    String name = txt.nextLine();
+    System.out.println("hello " + name);
+      }
+  }
